@@ -423,14 +423,14 @@ if btn:
 # -----------------------------
 with st.expander("ℹ️ API 안내 / 준비물"):
     st.markdown(
-"""
+        """
 **필요한 키**
 - **OpenAI API Key**: 리포트 생성용 (사이드바에 입력)
 - **OpenWeatherMap API Key**: 날씨 표시용 (사이드바에 입력)
 
 **사용한 외부 API**
-- OpenWeatherMap (Current Weather): 도시의 현재 날씨(한국어/섭씨)
-- Dog CEO API: 랜덤 강아지 이미지
+- OpenWeatherMap (Current Weather)
+- Dog CEO API (랜덤 강아지 이미지)
 
 **설치**
 ```bash
